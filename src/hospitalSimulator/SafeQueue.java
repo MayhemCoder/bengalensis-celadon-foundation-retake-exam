@@ -3,7 +3,7 @@ package hospitalSimulator;
 public class SafeQueue extends Queue {
     @Override
     public Patient getNextPatient() {
-        int maxSeverity = -1;
+        int maxSeverity = 0;
         Patient patientss = null;
         if (patients.isEmpty()) {
             return null;
