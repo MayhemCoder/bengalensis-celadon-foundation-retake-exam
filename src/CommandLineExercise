@@ -1,0 +1,7 @@
+cd computer-shop/desktop/.git
+git mv desktop/instock/ desktop/in-stock/
+cd..
+cd..
+git mv computer-shop/laptopt/transit-summary.csv computer-shop/laptop/in-transit git mv computer-shop/laptop/summary.csv
+
+
